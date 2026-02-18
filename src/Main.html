@@ -1,22 +1,72 @@
 <!DOCTYPE html>
-<html>
+<html lang="da">
 <head>
-    <title> Danmark mod Madspild</title>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Danmark mod Madspild - GUI Projekt</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<h1> Danmark mod
-    Madspild</h1>
-<p>Hver dag bliver der smidt næsten
-    2.000 tons fødevarer ud i Danmark.
-    Men nu går indsatsen mod
-    madspild ind i en ny fase
-    Organisationen - Danmark mod
-    Madspild – ønsker via en webside
-    at gøre det nemmere at undgå
-    madspild eller informere forbrugere
-    om madspild.</p>
+<header>
+    <nav>
+        <div class="logo">Danmark mod Madspild</div>
+        <ul>
+            <li><a href="#fakta">Fakta</a></li>
+            <li><a href="#indsats">Vores Indsats</a></li>
+            <li><a href="#events">Events</a></li>
+            <li><a href="#" class="btn-primary">Tilmeld</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <section class="hero">
+        <h1>Hver dag smides næsten 2.000 tons fødevarer ud i Danmark</h1>
+        <p>Vi gør det nemmere at undgå madspild og informerer forbrugere om bæredygtighed.</p>
+        <a href="#indsats" class="cta-button">Lær hvordan du hjælper</a>
+    </section>
+
+    <section id="fakta" class="stats-container">
+        <h2>Værd at vide om madspild</h2>
+        <div class="stats-grid">
+            <div class="stat-card">
+                <h3>261.000 tons</h3>
+                <p>Madspild fra husholdninger pr. år.</p>
+            </div>
+            <div class="stat-card">
+                <h3>227.000 tons</h3>
+                <p>Madspild i servicesektoren pr. år.</p>
+            </div>
+            <div class="stat-card">
+                <h3>163.000 tons</h3>
+                <p>Stammer fra detailhandelen (72% af servicesektoren).</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="events" class="features">
+        <h2>Hvad kan du gøre?</h2>
+        <div class="feature-grid">
+            <div class="feature-item">
+                <h3>Se Madspildsinfo</h3>
+                <p>Få de nyeste tal og viden om madaffald.</p>
+            </div>
+            <div class="feature-item">
+                <h3>Tilmeld Madspild</h3>
+                <p>Hjælp virksomheder med at donere overskudsmad.</p>
+            </div>
+            <div class="feature-item">
+                <h3>Opret/Tilmeld Event</h3>
+                <p>Deltag i lokale madlavningskurser eller fællesspisning.</p>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2026 Danmark mod Madspild | 2. Semester GUI Projekt</p>
+</footer>
 
 </body>
 </html>
